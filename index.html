@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/gh/FogNetwork/ABC/index.js"></script>
+  <script>
+    window.location.href = "https://www.google.com/"
+    var page = new ABC({
+      "type": "blank",
+      "url": window.location.origin + "/main.html"
+    })
+    page.open() || alert("Popups are blocked, please enable them and visit this page again to access Blanker about:blank cloaked.\nYou can access Blanker non-about:blank cloaked at " + window.location.origin + "/main.html.")
+  </script>
+  
+</body>
+
+</html>
